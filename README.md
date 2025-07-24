@@ -49,6 +49,7 @@ Opens your browser
 ```bash
 agentic-rag-chatbot/
 ├── agents/
+│   ├── coordinator.py
 │   ├── ingestion_agent.py      # Splits uploaded files into chunks
 │   ├── retrieval_agent.py      # Embeds and retrieves relevant chunks
 │   └── llm_response_agent.py   # Generates responses using LLM
