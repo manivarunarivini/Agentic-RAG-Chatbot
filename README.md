@@ -84,30 +84,23 @@ search_similar_chunks(query) — returns top-k similar chunks based on cosine si
 Uses: faiss, numpy, sentence-transformers.
 
 ## Streamlit Interface (app.py)
-Upload files and ask a question.
+1. Upload files and ask a question.
 
-Backend calls the coordinator to:
+2. Backend calls the coordinator to:
 
-Ingest files → split into chunks.
+3. Ingest files → split into chunks.
 
-Retrieve relevant chunks based on the query.
+4. Retrieve relevant chunks based on the query.
 
-Pass chunks + question to LLM for answer.
+5. Pass chunks + question to LLM for answer.
 
 ## LLM Model & Acceleration
-You can run on CPU (default) or GPU by modifying accelerate or using device_map="auto".
+You can run on CPU (default) or GPU by modifying accelerate.
 
 Change model in llm_response_agent.py:
 ```bash
-model_id = "tiiuae/falcon-rw-1b"  # or any Hugging Face compatible model
+model_id = "google/flan-t5-small"  # or any Hugging Face compatible model
 ```
-## Requirements (requirements.txt)
-streamlit
-transformers
-sentence-transformers
-faiss-cpu
-accelerate
-torch
 
 ## Example Questions
 Upload your documents and ask:
@@ -118,11 +111,4 @@ Upload your documents and ask:
 
 "Explain YOLO model structure."
 
-## Troubleshooting
-Model is slow? Use a smaller model or switch to GPU in llm_response_agent.py.
-
-IndexError in retrieval? Make sure at least one file is uploaded and indexed before querying.
-
-📌 License
-MIT License. Feel free to fork, modify, and share.
 
