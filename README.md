@@ -37,7 +37,7 @@ Run the App
 ```bash
 streamlit run ui/app.py
 ```
-Opens your browser 
+Opens your browser: Python initiates a Streamlit server on the local machine. This server is responsible for handling the application's logic and computations.
 
 ## Project Structure
 ```bash
