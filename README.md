@@ -106,10 +106,11 @@ model_id = "google/flan-t5-small"  # or any Hugging Face compatible model
 ## Example Questions
 Upload your documents and ask questions like:
 After uploading Object detection pdf
-"What models were used for object detection?"
 
-"Summarize the dataset creation process."
+1. "What models were used for object detection?"
 
-"Explain YOLO model structure."
+2. "Summarize the dataset creation process."
+
+3. "Explain YOLO model structure."
 
 
