@@ -50,7 +50,7 @@ agentic-rag-chatbot/
 │
 ├── ui/
 │   └── app.py                  # Streamlit web interface
-│
+├── Agentic-RAG-Chatbot_Slides.pptx  #PPT Presentation
 ├── vector_store.py             # FAISS vector index storage & search
 ├── mcp.py                      # Model Context Protocol message class
 ├── requirements.txt            # Python dependencies
