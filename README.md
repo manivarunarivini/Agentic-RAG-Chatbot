@@ -19,13 +19,13 @@ An **Agentic Retrieval-Augmented Generation (RAG)** chatbot that answers user qu
 1. Create and Activate a Virtual Environment
 # Windows
 ```bash
-python -m venv venv
-venv\Scripts\activate
+python -m venv agentic-rag-chatbot
+agentic-rag-chatbot\Scripts\activate
 ```
 # macOS/Linux
 ```bash
-python3 -m venv venv
-source venv/bin/activate
+python3 -m venv agentic-rag-chatbot
+source agentic-rag-chatbot/bin/activate
 ```
 2. Install Dependencies
 ```bash
