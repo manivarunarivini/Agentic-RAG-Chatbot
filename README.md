@@ -9,20 +9,14 @@ An **Agentic Retrieval-Augmented Generation (RAG)** chatbot that answers user qu
 - Multi-agent architecture using **Ingestion**, **Retrieval**, and **LLM Response** agents.
 - Handles multi-turn questions using persistent context.
 - Uses FAISS for vector similarity search.
-- Powered by local or lightweight open-source LLMs.
+- Powered by lightweight open-source LLMs.
 - Streamlit web interface for ease of interaction.
 
 ---
 
 ## Setup Instructions
 
-### 1. Clone the Repository
-
-```bash
-git clone https://github.com/yourusername/agentic-rag-chatbot.git
-cd agentic-rag-chatbot
-```
-2. Create and Activate a Virtual Environment
+1. Create and Activate a Virtual Environment
 # Windows
 ```bash
 python -m venv venv
@@ -33,7 +27,7 @@ venv\Scripts\activate
 python3 -m venv venv
 source venv/bin/activate
 ```
-3. Install Dependencies
+2. Install Dependencies
 ```bash
 pip install -r requirements.txt
 ```
