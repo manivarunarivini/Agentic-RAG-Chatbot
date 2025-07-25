@@ -38,6 +38,7 @@ Run the App
 streamlit run ui/app.py
 ```
 Opens your browser: Python initiates a Streamlit server on the local machine. This server is responsible for handling the application's logic and computations.
+<img width="1273" height="677" alt="chatbot1" src="https://github.com/user-attachments/assets/9dcc9b70-0ff6-4d89-b5e4-6319457e3096" />
 
 ## Project Structure
 ```bash
